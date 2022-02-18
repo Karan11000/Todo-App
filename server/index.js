@@ -7,10 +7,6 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get("/", (req, res)=>{
-    res.send("Hello World");
-})
-
 
 app.post("/todos", async (req, res)=>{
     try {
